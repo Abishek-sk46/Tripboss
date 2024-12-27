@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 :root{
     --green: #1ec6b6;
     --light-grey: #f7f7f7;
@@ -13,8 +20,8 @@
     z-index: 999;
 }
 .navbar .container{
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
+    /* -webkit-box-pack: justify;
+        -ms-flex-pack: justify; */
             justify-content: space-between;
 }
 .site-brand{
